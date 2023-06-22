@@ -64,9 +64,10 @@
             // imagePictureBox
             // 
             this.imagePictureBox.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.imagePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.imagePictureBox.Location = new System.Drawing.Point(2, 2);
             this.imagePictureBox.Name = "imagePictureBox";
-            this.imagePictureBox.Size = new System.Drawing.Size(427, 430);
+            this.imagePictureBox.Size = new System.Drawing.Size(425, 430);
             this.imagePictureBox.TabIndex = 2;
             this.imagePictureBox.TabStop = false;
             this.imagePictureBox.Click += new System.EventHandler(this.MainForm_Load);
@@ -131,6 +132,7 @@
             // 
             // imageListBox
             // 
+            this.imageListBox.BackColor = System.Drawing.SystemColors.Info;
             this.imageListBox.FormattingEnabled = true;
             this.imageListBox.Location = new System.Drawing.Point(12, 451);
             this.imageListBox.Name = "imageListBox";
@@ -142,6 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(430, 592);
             this.Controls.Add(this.imageListBox);
             this.Controls.Add(this.groupBox1);
